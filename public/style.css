@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+}
+span{
+    color: #ff003f;
+}
+a{
+    margin-left: 3rem;
+    font-size: 18px;
+    color: #fff;
+}

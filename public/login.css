@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+form{
+    margin: 9% 17%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px black;
+    background-color: yellow;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+}
+.employer{
+    display: flex;
+    flex-direction: column;
+}
+.employer label{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 4px;
+}
+.employer input{
+    outline: none;
+    border: 1px solid black;
+    padding: 4px 7px;
+    border-radius: 4px;
+    background: #f1f1a3;
+}
+button{
+    padding: 5px 10px;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 2px solid black;
+    color: #fff;
+    background: black;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transform: 0.3s;
+}
+button:hover{
+    background-color: rgb(51, 48, 48);
+    border: 2px solid rgb(51, 48, 48);
+}
